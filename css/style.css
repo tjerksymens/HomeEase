@@ -1,0 +1,53 @@
+body{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Arial Rounded MT Bold', sans-serif;            
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.nav{
+    height: 104px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #0B6253;
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nav_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav svg{
+    padding-top: 8px;
+}
+
+.nav a{
+    color: #C6EBBE;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    padding-top: 8px;
+}

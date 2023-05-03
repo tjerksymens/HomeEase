@@ -10,6 +10,7 @@ h1{
     font-size: 28px;
     line-height: 32px;
     padding-left: 16px;
+    padding-right: 16px;
 }
 
 h2{
@@ -19,16 +20,32 @@ h2{
     font-size: 18px;
     line-height: 100%;
     letter-spacing: -0.02em;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 p{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 100%;
     letter-spacing: -0.02em;
     padding-left: 16px;
+    padding-right: 16px;
+}
+
+a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #0B6253;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .nav{
@@ -78,4 +95,48 @@ p{
 
 .checked a{
     font-weight: 700;
+}
+
+.sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #D9D9D9;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.add{
+    display: block;
+    margin-right: 0; 
+    margin-left: auto;
+    padding-right: 16px;
+}
+
+span{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #0B6253;
+}
+
+.opmerking{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.herinnering{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

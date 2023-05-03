@@ -41,9 +41,7 @@
     // Add event listener aan elke nav_box
     navBoxes.forEach(box => {
         box.addEventListener('click', () => {
-            // Get the link from the <a> tag inside the clicked nav box
             const link = box.querySelector('a').href;
-            // Navigate to the link
             window.location.href = link;
         });
     });

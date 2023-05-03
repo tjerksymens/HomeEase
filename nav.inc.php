@@ -36,10 +36,9 @@
 </div>
 
 <script>
-    // Get all elements with class "nav_box"
     const navBoxes = document.querySelectorAll('.nav_box');
 
-    // Loop through each nav box and attach a click event listener
+    // Add event listener aan elke nav_box
     navBoxes.forEach(box => {
         box.addEventListener('click', () => {
             // Get the link from the <a> tag inside the clicked nav box
@@ -47,5 +46,13 @@
             // Navigate to the link
             window.location.href = link;
         });
+    });
+
+    // checked class toevoegen aan de pagina waar je op zit
+    navBoxes.forEach(navBox => {
+        const href = navBox.querySelector('a').getAttribute('href');
+        if (window.location.href.includes(href)) {
+            navBox.classList.add('checked');
+        }
     });
 </script>

@@ -2,8 +2,6 @@
 
 class Opmerking
 {
-    private static $opmerking;
-
     public static function getAllOpmerkingen()
     {
         $conn = Db::getInstance();

@@ -12,6 +12,7 @@
 
 body{
     padding-top: 50px;
+    padding-bottom: 104px;
     max-width: 500px;
     margin: 0 auto;
     background-color: var(--white);

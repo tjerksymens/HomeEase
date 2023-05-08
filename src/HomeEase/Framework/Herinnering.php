@@ -2,7 +2,6 @@
 
 class Herinnering
 {
-    private static $herinnering;
 
     public static function getAllHerinneringen()
     {

@@ -1,0 +1,18 @@
+hr {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+h2 {
+    padding-top: 16px;
+}
+
+.arr_title {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: -16px;
+    margin-bottom: -16px;
+}

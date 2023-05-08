@@ -20,6 +20,8 @@
 </head>
 
 <body>
+    <?php include_once("header.inc.php"); ?>
+
     <h1>Takenlijst</h1>
 
 

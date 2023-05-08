@@ -11,6 +11,7 @@
 }
 
 body{
+    padding-top: 50px;
     max-width: 500px;
     margin: 0 auto;
     background-color: var(--white);
@@ -109,3 +110,42 @@ a{
 .checked a{
     font-weight: 700;
 }
+
+.heading{
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.patiënt {
+    position: relative;
+    padding-right: 172px;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .text-container span {
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: var(--light-green);
+    font-weight: 700;
+  }
+  

@@ -23,6 +23,8 @@ $allHerinneringen = Herinnering::getAllHerinneringen();
 </head>
 
 <body>
+    <?php include_once("header.inc.php"); ?>
+
     <div>
         <div class="sub">
             <h2>🩺 Parameters</h2>

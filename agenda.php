@@ -19,9 +19,12 @@
     <link rel="stylesheet" href="css/agenda.css">
     <title>HomeEase Agenda</title>
 </head>
-<h1>Agenda</h1>
 
 <body class="light">
+    <?php include_once("header.inc.php"); ?>
+
+    <h1>Agenda</h1>
+
     <div class="calendar">
         <div class="calendar-header">
             <span id="month-picker">

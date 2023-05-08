@@ -1,10 +1,23 @@
+:root {
+    --black: #292929;
+    --white: #f5f3f3;
+    --gray: #D9D9D9;
+
+    --green: #0b6252;
+    --light-green: #c6ebbe;
+
+    --font-title: 'Arial Rounded MT Bold', sans-serif;  
+    --font-family: 'Lato', sans-serif;
+}
+
 body{
     max-width: 500px;
     margin: 0 auto;
+    background-color: var(--white);
 }
 
 h1{
-    font-family: 'Arial Rounded MT Bold', sans-serif;            
+    font-family: var(--font-title);            
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -14,7 +27,7 @@ h1{
 }
 
 h2{
-    font-family: 'Lato';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -25,7 +38,7 @@ h2{
 }
 
 p{
-    font-family: 'Lato';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -36,14 +49,14 @@ p{
 }
 
 a{
-    font-family: 'Lato';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: -0.02em;
     text-decoration: none;
-    color: #0B6253;
+    color: var(--green);
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -52,7 +65,7 @@ a{
     height: 104px;
     width: 100%;
     max-width: 500px;
-    background-color: #0B6253;
+    background-color: var(--green);
     position: fixed;
     bottom: 0;
     display: grid;
@@ -72,25 +85,25 @@ a{
 }
 
 .nav a{
-    color: #C6EBBE;
+    color: var(--light-green);
     text-decoration: none;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     display: inline-block;
     padding-top: 8px;
 }
 
 .checked svg{
-    fill: #C6EBBE;
+    fill: var(--light-green);
 }
 
 .checked svg path{
-    stroke: #0B6253;
+    stroke: var(--green);
 }
 
 .checked svg circle{
-    fill: #C6EBBE;
+    fill: var(--light-green);
 }
 
 .checked a{

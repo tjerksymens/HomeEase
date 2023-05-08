@@ -1,3 +1,15 @@
+:root {
+    --black: #292929;
+    --white: #f5f3f3;
+    --gray: #D9D9D9;
+
+    --green: #0b6252;
+    --light-green: #c6ebbe;
+
+    --font-title: 'Arial Rounded MT Bold', sans-serif;  
+    --font-family: 'Lato', sans-serif;
+}
+
 .sub{
     display: flex;
     justify-content: space-between;
@@ -8,7 +20,7 @@ hr{
     display: block;
     border-style: inset;
     border-width: 1px;
-    border-color: #D9D9D9;
+    border-color: var(--gray);
     margin-left: 16px;
     margin-right: 16px;
 }
@@ -21,13 +33,13 @@ hr{
 }
 
 span{
-    font-family: 'Lato';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     padding-left: 16px;
     padding-right: 16px;
-    color: #0B6253;
+    color: var(--green);
 }
 
 .opmerking{

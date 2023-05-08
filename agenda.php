@@ -15,55 +15,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/arial-rounded-mt-bold" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/calendar.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/calendar.js"></script>
+    <link rel="stylesheet" href="css/agenda.css">
     <title>HomeEase Agenda</title>
 </head>
+<h1>Agenda</h1>
 
-<body>
-    <h1>Agenda</h1>
-
-    <div class="container">
-        <div class="calendar">
-            <div class="calendar-header">
-                <div class="month-picker" id="month-picker"> Mei </div>
-                <div class="year-picker" id="year-picker">
-                    <span class="year-change" id="pre-year">
-                        <pre><</pre>
-                    </span>
-                    <span id="year">2023</span>
-                    <span class="year-change" id="next-year">
-                        <pre>></pre>
-                    </span>
-                </div>
+<body class="light">
+    <div class="calendar">
+        <div class="calendar-header">
+            <span id="month-picker">
+                Mei
+            </span>
+            <div class="year-picker">
+                <span class="year-change" id="prev-year">
+                    <pre><</pre>
+                </span>
+                <spand id="year">2023</spand>
+                <span class="year-change" id="next-year">
+                    <pre>></pre>
+                </span>
             </div>
-
-            <div class="calendar-body">
-                <div class="calendar-week-days">
-                    <div>Ma</div>
-                    <div>Di</div>
-                    <div>Wo</div>
-                    <div>Do</div>
-                    <div>Vr</div>
-                    <div>Za</div>
-                    <div>Zo</div>
-                    <div class="calendar-days"></div>
-                </div>
-                <div class="calendar-footer"></div>
-                <div class="date-time-formate">
-                    <div class="day-text-formate">VANDAAG</div>
-                    <div class="date-formate">03 - mei - 2023</div>
-                </div>
-
-                <div class="month-list"></div>
-
-            </div>
-
         </div>
+
+        <div class="calendar-body">
+            <div class="calendar-week-day">
+                <div>Ma</div>
+                <div>Di</div>
+                <div>Wo</div>
+                <div>Do</div>
+                <div>Vr</div>
+                <div>Za</div>
+                <div>Zo</div>
+            </div>
+            <div class="calendar-days">
+                <div>1
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+
+            </div>
+        </div>
+
+        <div class="month-list"></div>
+
     </div>
 
     <?php include_once("nav.inc.php"); ?>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,64 @@
+:root {
+    --black: #292929;
+    --white: #f5f3f3;
+    --gray: #D9D9D9;
+
+    --green: #0b6252;
+    --light-green: #c6ebbe;
+
+    --red: #fe0505;
+    --orange: #ff8b04;
+
+    --font-title: 'Arial Rounded MT Bold', sans-serif;  
+    --font-family: 'Lato', sans-serif;
+}
+
+.takenlijst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.takenlijst a {
+    font-size: 18px;
+}
+
+.te_doen {
+    color: var(--red);
+}
+
+.in_behandeling {   
+    color: var(--orange);
+}
+
+.gedaan {
+    color: var(--green);
+}
+
+.taak {
+    display: block;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 94%;
+    height: 48px;
+    margin: auto;
+    background-color: var(--gray);
+    border-radius: 8px;
+}
+
+.taak p {
+    line-height: 48px;
+}
+.taak strong {
+    color: var(--green);
+}
+
+.add_btn {
+    position: fixed;
+    bottom: 120px;
+    right: 16px;
+}

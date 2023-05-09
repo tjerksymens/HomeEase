@@ -1,7 +1,7 @@
 <?php
 include_once("bootstrap.inc.php");
 
-$taken = Taken::getAllTakenInBehandeling();
+$taken = Taken::getAllTakenGedaan();
 
 ?>
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ $taken = Taken::getAllTakenInBehandeling();
     <link rel="stylesheet" href="css/taken.css">
     <title>HomeEase Takenlijst</title>
     <style>
-        .in_behandeling {
+        .gedaan {
             text-decoration: underline;
             text-underline-offset: 8px;
         }
@@ -28,6 +28,7 @@ $taken = Taken::getAllTakenInBehandeling();
         .taak p {
             display: grid;
             grid-template-columns: 35% 65%;
+            line-height: 48px;
         }
     </style>
 </head>

@@ -1,5 +1,5 @@
 <?php
-include_once(__DIR__ . "/bootstrap.php");
+include_once(__DIR__ . "/bootstrap.inc.php");
 
 $allInformatieThuiszorg = Informatie::getAllInformatieThuiszorg();
 $allInformatieWatMoetJeDoen = Informatie::getAllInformatieWatMoetJeDoen();

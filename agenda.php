@@ -1,6 +1,5 @@
 <?php
-
-
+include_once("bootstrap.inc.php");
 
 ?>
 <!DOCTYPE html>

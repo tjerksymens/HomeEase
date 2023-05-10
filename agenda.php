@@ -20,7 +20,6 @@ include_once("bootstrap.inc.php");
 </head>
 
 <body class="light">
-    <?php include_once("header.inc.php"); ?>
 
     <h1>Agenda</h1>
 
@@ -78,6 +77,7 @@ include_once("bootstrap.inc.php");
 
     </div>
 
+    <?php include_once("header.inc.php"); ?>
     <?php include_once("nav.inc.php"); ?>
     <script src="js/script.js"></script>
 </body>

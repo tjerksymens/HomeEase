@@ -28,7 +28,6 @@ $taken = Taken::getAllTakenTeDoen();
 </head>
 
 <body>
-    <?php include_once("header.inc.php"); ?>
 
     <h1>Takenlijst</h1>
 
@@ -51,6 +50,7 @@ $taken = Taken::getAllTakenTeDoen();
         <path d="M13 26H39M26 39V13" stroke="#F5F3F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
 
+    <?php include_once("header.inc.php"); ?>
     <?php include_once("nav.inc.php"); ?>
 </body>
 

@@ -26,12 +26,9 @@ $datetimeObj = new DateTime($latestDatetime);
 </head>
 
 <body>
-    <?php include_once("header.inc.php"); ?>
-
     <div>
         <div class="sub">
             <h2>🩺 Parameters</h2>
-            <a href="">Toon alle</a>
         </div>
 
         <div class="parameters">
@@ -151,6 +148,7 @@ $datetimeObj = new DateTime($latestDatetime);
         </svg>
     </div>
 
+    <?php include_once("header.inc.php"); ?>
     <?php include_once("nav.inc.php"); ?>
 </body>
 

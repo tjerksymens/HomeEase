@@ -24,7 +24,6 @@ $allInformatieSymptomen = Informatie::getAllInformatieSymptomen();
 </head>
 
 <body>
-    <?php include_once("header.inc.php"); ?>
     <div class="info_page">
         <h1>Informatie</h1>
 
@@ -71,6 +70,7 @@ $allInformatieSymptomen = Informatie::getAllInformatieSymptomen();
         </div>
     </div>
 
+    <?php include_once("header.inc.php"); ?>
     <?php include_once("nav.inc.php"); ?>
 </body>
 

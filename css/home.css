@@ -1,0 +1,206 @@
+:root {
+    --black: #292929;
+    --white: #f5f3f3;
+    --gray: #D9D9D9;
+
+    --green: #0b6252;
+    --light-green: #c6ebbe;
+
+    --red: #fe0505;
+    --orange: #ff8b04;
+
+    --font-title: 'Arial Rounded MT Bold', sans-serif;  
+    --font-family: 'Lato', sans-serif;
+}
+
+.sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parameters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: top;
+    gap: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    filter: drop-shadow(0px 4px 3px var(--gray));
+}
+
+.temperatuur_gewicht {
+    margin-top: -18px;
+}
+
+.temperatuur_gewicht h3{
+    padding-top: 16px;
+}
+
+.bloeddruk {
+    background-color: var(--light-green);
+    border-radius: 8px;
+    height: 280px;
+}
+
+.bloeddruk{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.timedate{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 24px;
+}
+
+.timedate span {
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.timedate b {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: var(--font-family);
+}
+
+.mmHg {
+    padding-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.mmHg b{
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: var(--font-family);
+}
+
+.mmHg span {
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.mmHg p {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--green);
+    line-height: 4px;
+}
+
+.pijltje {
+    position: fixed;
+    margin-top: 190px;
+    margin-left: 16px;
+}
+
+.param_bloeddruk {
+    display: block;
+    margin-left: auto;
+    margin-right: 8px;
+    margin-top: 100px;
+}
+
+.temperatuur {
+    background-color: var(--light-green);
+    border-radius: 8px;
+    height: 120px;
+}
+
+.koorts{
+    background-color: var(--light-green);
+    border-radius: 8px;
+    height: 120px;
+}
+
+.koorts p{
+    padding-top: 4px;
+    color: var(--red);
+}
+
+.gewicht {
+    background-color: var(--light-green);
+    border-radius: 8px;
+    height: 140px;
+}
+
+h3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: var(--font-family);
+    margin-bottom: -8px;
+    font-weight: lighter;
+}
+
+.value {
+    margin-top: 16px;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -2px;
+}
+
+.param_gewicht{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: -8px;
+}
+
+.marker {
+    display: block;
+    margin-left: 55px;
+    margin-top: -8px;
+    margin-bottom: -16px;
+}
+
+.txt {
+    font-size: 12px;
+}
+
+.txt span{
+    font-size: 12px;
+}
+
+hr{
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    border-color: var(--gray);
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.add{
+    display: block;
+    margin-right: 0; 
+    margin-left: auto;
+    padding-right: 16px;
+}
+
+span{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: var(--green);
+}
+
+.opmerking{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.herinnering{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

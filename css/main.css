@@ -11,7 +11,7 @@
 }
 
 body{
-    padding-top: 120px;
+    padding-top: 110px;
     padding-bottom: 104px;
     max-width: 500px;
     margin: 0 auto;
@@ -119,7 +119,7 @@ a{
     top: 0;
     max-width: 500px;
     width: 100%;
-    height: 100px;
+    height: 90px;
     background-color: var(--white);
 }
 

@@ -14,7 +14,7 @@ if (!empty($_POST)) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -32,7 +32,7 @@ if (!empty($_POST)) {
 
 <body>
     <div class="sub">
-        <h2>💡 Herinnering</h2>
+        <h2>Voeg herinnering toe</h2>
         <a href="index.php">ga terug</a>
     </div>
     <form action="" method="post">

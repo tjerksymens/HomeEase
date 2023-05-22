@@ -31,10 +31,19 @@ class Herinnering
         $this->herinnering = $herinnering;
     }
 
-    public static function getAllHerinneringen()
+    public static function getSoonestHerinneringen()
     {
         $conn = Db::getInstance();
         $statement = $conn->prepare("SELECT * FROM Herinneringen ORDER BY datum LIMIT 3");
+        $statement->execute();
+        $data = $statement->fetchAll(PDO::FETCH_ASSOC);
+        return $data;
+    }
+
+    public static function getAllHerinneringen()
+    {
+        $conn = Db::getInstance();
+        $statement = $conn->prepare("SELECT * FROM Herinneringen ORDER BY datum");
         $statement->execute();
         $data = $statement->fetchAll(PDO::FETCH_ASSOC);
         return $data;

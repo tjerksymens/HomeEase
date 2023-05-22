@@ -51,7 +51,7 @@
             <path d="M8.46666 16.1577L19.6667 16.1577" stroke="#0B6253" stroke-linecap="round" />
             <path d="M8.46666 22.8945L15.9333 22.8945" stroke="#0B6253" stroke-linecap="round" />
         </svg>
-        <a href="agenda.php">Agenda</a>
+        <a href="takenlijst.php">Taken</a>
     </div>
 
     <div class="nav_box">
@@ -68,7 +68,7 @@
             <path d="M17.8889 9.00022C17.8889 9.49114 17.4909 9.88911 17 9.88911C16.5091 9.88911 16.1111 9.49114 16.1111 9.00022C16.1111 8.5093 16.5091 8.11133 17 8.11133C17.4909 8.11133 17.8889 8.5093 17.8889 9.00022Z" fill="#0B6253" />
             <path d="M17 25.8888V13.4443" stroke="#0B6253" />
         </svg>
-        <a href="agenda.php">Agenda</a>
+        <a href="informatie.php">Info</a>
     </div>
 </div>
 

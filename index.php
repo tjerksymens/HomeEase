@@ -1,8 +1,8 @@
 <?php
 include_once(__DIR__ . "/bootstrap.inc.php");
 
-$allOpmerkingen = Opmerking::getAllOpmerkingen();
-$allHerinneringen = Herinnering::getAllHerinneringen();
+$allOpmerkingen = Opmerking::getLatestOpmerkingen();
+$allHerinneringen = Herinnering::getSoonestHerinneringen();
 $latestParameters = Parameters::getLatestParameters();
 $latestDatetime = $latestParameters['datum'];
 $datetimeObj = new DateTime($latestDatetime);
@@ -108,7 +108,7 @@ $datetimeObj = new DateTime($latestDatetime);
     <div>
         <div class="sub">
             <h2>🖌️ Opmerkingen</h2>
-            <a href="">Toon alle</a>
+            <a href="allOpmerkingen.php">Toon alle</a>
         </div>
 
         <?php foreach ($allOpmerkingen as $opmerking) :  ?>
@@ -129,7 +129,7 @@ $datetimeObj = new DateTime($latestDatetime);
     <div>
         <div class="sub">
             <h2>💡 Herinneringen</h2>
-            <a href="">Toon alle</a>
+            <a href="allHerinneringen.php">Toon alle</a>
         </div>
 
         <?php foreach ($allHerinneringen as $herinnering) : ?>

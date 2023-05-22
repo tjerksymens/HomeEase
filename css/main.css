@@ -83,6 +83,13 @@ a{
     height: 100%;
 }
 
+.checked_nav_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
 .nav svg{
     padding-top: 8px;
 }
@@ -111,6 +118,11 @@ a{
 
 .checked a{
     font-weight: 700;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
 }
 
 .heading{

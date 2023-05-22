@@ -104,19 +104,7 @@ a{
     padding-top: 8px;
 }
 
-.checked svg{
-    fill: var(--light-green);
-}
-
-.checked svg path{
-    stroke: var(--green);
-}
-
-.checked svg circle{
-    fill: var(--light-green);
-}
-
-.checked a{
+.checked_nav{
     font-weight: 700;
 }
 

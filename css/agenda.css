@@ -159,11 +159,9 @@ html, body {
     top: 0;
     left: 0;
     background-color: var(--bg-main);
-    padding: 20px;
     color: var(--color-txt);
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 5px;
     transform: scale(1.5);
     visibility: hidden;
     pointer-events: none;

@@ -53,6 +53,7 @@
 .taak p {
     line-height: 48px;
 }
+
 .taak strong {
     color: var(--green);
 }
@@ -60,5 +61,6 @@
 .add_btn {
     position: fixed;
     bottom: 120px;
-    right: 16px;
+    right: -208px;
+    width: 100%;
 }

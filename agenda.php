@@ -20,7 +20,6 @@ include_once("bootstrap.inc.php");
 </head>
 
 <body class="light">
-
     <h1>Agenda</h1>
 
     <div class="calendar">

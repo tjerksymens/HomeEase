@@ -33,7 +33,6 @@ $taken = Taken::getAllTakenInBehandeling();
 </head>
 
 <body>
-
     <h1>Takenlijst</h1>
 
     <div class="takenlijst">

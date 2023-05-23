@@ -58,9 +58,18 @@
     color: var(--green);
 }
 
+
 .add_btn {
     position: fixed;
     bottom: 120px;
-    right: -208px;
-    width: 100%;
+    right: 16px;
+}
+
+@media screen and (min-width: 500px) {
+    .add_btn {
+        position: fixed;
+        bottom: 120px;
+        right: -208px;
+        width: 100%;
+    }
 }

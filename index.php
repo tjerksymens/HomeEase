@@ -118,11 +118,7 @@ $datetimeObj = new DateTime($latestDatetime);
             </div>
         <?php endforeach; ?>
 
-        <a href="addOpmerking.php">
-            <svg class="add" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.25 12.5H18.75M12.5 18.75V6.25" stroke="#292929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </a>
+        <a class="toevoegen" href="addOpmerking.php">Toevoegen</a>
         <hr>
     </div>
 
@@ -139,11 +135,7 @@ $datetimeObj = new DateTime($latestDatetime);
             </div>
         <?php endforeach; ?>
 
-        <a href="addHerinnering.php">
-            <svg class="add" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.25 12.5H18.75M12.5 18.75V6.25" stroke="#292929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </a>
+        <a class="toevoegen" href="addHerinnering.php">Toevoegen</a>
     </div>
 
     <?php include_once("header.inc.php"); ?>

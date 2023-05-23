@@ -204,3 +204,12 @@ span{
     justify-content: flex-start;
     align-items: center;
 }
+
+.toevoegen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}

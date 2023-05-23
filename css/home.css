@@ -95,14 +95,13 @@
 .pijltje {
     display: block;;
     margin-top: 190px;
-    margin-left: 16px;
+    margin-left: 8px;
 }
 
 .param_bloeddruk {
-    display: block;
-    margin-left: auto;
-    margin-right: 8px;
+    display: relative;
     margin-top: -110px;
+    padding-left: 24px;
 }
 
 .temperatuur {

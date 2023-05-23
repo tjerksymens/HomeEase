@@ -41,17 +41,19 @@
 .taak {
     display: block;
     align-items: center;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 16px;
     width: 94%;
-    height: 48px;
-    margin: auto;
+    height: auto;
     background-color: var(--gray);
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .taak p {
-    line-height: 48px;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .taak strong {

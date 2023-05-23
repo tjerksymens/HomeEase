@@ -93,7 +93,7 @@
 }
 
 .pijltje {
-    position: fixed;
+    display: block;;
     margin-top: 190px;
     margin-left: 16px;
 }

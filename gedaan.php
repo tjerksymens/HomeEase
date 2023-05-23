@@ -28,7 +28,6 @@ $taken = Taken::getAllTakenGedaan();
         .taak p {
             display: grid;
             grid-template-columns: 35% 65%;
-            line-height: 48px;
         }
     </style>
 </head>
